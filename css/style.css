@@ -8,4 +8,19 @@
 body{
   background-color: var(--accent);
   color: var(--test);
+  color: var(--test);
+  width: 98%;
+  margin: 0 auto;
+}
+.topnav {
+  margin-top: -.25em;
+  padding-bottom: .5rem;
+  background-color: var(--prime);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  z-index: 1000;
+  width: 100%
+
 }
