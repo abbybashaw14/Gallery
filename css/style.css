@@ -24,3 +24,6 @@ body{
   width: 100%
 
 }
+@media screen and (max-width:767px) {
+  .topnav {display: flex; flex-direction: row; justify-content: space-between;
+  }
