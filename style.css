@@ -3,5 +3,9 @@
   --text: #2F323B;
   --rev-text: #BFCBDC;
   --accent: #BAADAF;
-  
+
+}
+body{
+  background-color: var(--accent);
+  color: var(--test);
 }
