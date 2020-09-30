@@ -6,6 +6,8 @@
 
 }
 body{
+  padding: .25rem;
+  font-size: 18px;
   background-color: var(--accent);
   color: var(--text);
   width: 98%;
@@ -16,7 +18,7 @@ i.fas {
 }
 .topnav {
   margin-top: -.25em;
-  padding-bottom: .5rem;
+  padding-bottom: 3rem;
   background-color: var(--accent);
   display: flex;
   flex-direction: column;
@@ -46,6 +48,7 @@ a.nav-item:hover {
   display: none;
   text-decoration: none;
   font-size: 2rem;
+  color: var(--accent);
 }
 
 @media screen and (max-width:767px){
@@ -55,8 +58,8 @@ a.nav-item:hover {
 
 @media screen and (max-width: 767px){
   .topnav.responsive {align-items: center;}
-  .topnav.responsive a, .topnav.responsive span{display:block;}
-  .topnav.responsive a: first-child {margin-top: 1em;}
+  .topnav.responsive a, .topnav.responsive span{display:inherit;}
+  .topnav.responsive a:first-child {margin-top: 1em;}
   .topnav.responsive a:not(:last-child){display: inherit; padding-top: 1em;}
   .topnav.responsive a.more {margin-bottom:1em;}
   .topnav.responsive a.trigram {visibility: hidden; transition:none;}
