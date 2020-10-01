@@ -126,3 +126,82 @@ a.nav-item:hover {
 .text-center {
   display: flex;
 }
+.indicator {
+  cursor: pointer;
+  height: auto;
+  width: 25%;
+  margin: 0 2px;
+  background-color: #BFCBDC;
+  display: inline-block;
+  transition: all 250ms ease-in-out;
+  opacity: .5;
+}
+.indicator img {
+  width: 100% !important;
+}
+.active, .indicator:hover {
+  opacity: 1;
+}
+.main-grid {
+  margin-top: 3.5rem;
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: 1fr;
+}
+.main-grid-item {
+  border-radius: 4px;
+  padding: .5em;
+  background-color: var(--accent);
+}
+.thumb {
+  padding-bottom: 56%;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 4px 4px 0 0;
+}
+.one .thumb {background-image: url('img/boathouse.jpg'); }
+
+.card-content {
+  padding: 0 .5em .7em .5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-title {
+  margin: 1rem 0 0 0;
+  text-transform: uppercase;
+  align-self: flex-start;
+  color: var(--text);
+}
+button.card-more, button.card-more:visited {
+  color: black;
+  border: 1.5px solid var(--prime);
+  transition: all 250ms ease-in-out;
+}
+button.card-more:hover, button.card-more:active {
+  color: var(--prime);
+  border-color: var(--prime);
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(10, 10, 10, .4);
+}
+.modal-content {
+  background-color: black;
+  color: var(--text);
+  margin: 1rem auto;
+  padding: 1em;
+  width: 92%;
+  border-radius: 4px;
+  animation: fadein .3s ease-in-out;
+}
+@@keyframes fadein {
+  from{transform:scale(.1);}
+}
