@@ -110,7 +110,6 @@ a.nav-item:hover {
   color: #f2f2f2;
   font-size: 22px;
   padding: 8px 12px;
-  position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
@@ -152,15 +151,15 @@ a.nav-item:hover {
   body {width: 96%;}
   .main-grid {grid-template-columns: repeat(2, 1fr);}
 }
-@media screen and (min-width: 768px) {/*-- at screens between 768 and 989 --*/
+@media screen and (min-width: 768px) {
   body {width: 94%;}
-  .main-grid {grid-template-columns: repeat(3, 1fr);} /*-- 3 columnns --*/
+  .main-grid {grid-template-columns: repeat(3, 1fr);}
 }
-@media screen and (min-width: 990px) {/*-- at screens between 990 and 1271 --*/
+@media screen and (min-width: 990px) {
   body {width: 92%;}
-  .main-grid {grid-template-columns: repeat(4, 1fr);} /*-- 4 columnns --*/
+  .main-grid {grid-template-columns: repeat(4, 1fr);}
 }
-@media screen and (min-width: 1280px) {/*-- at screens 1280 and above --*/
+@media screen and (min-width: 1280px) {
   body {width: 90%;}
   .main-grid {grid-template-columns: repeat(4, 1fr);}
 }
