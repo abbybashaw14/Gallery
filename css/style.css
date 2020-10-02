@@ -221,7 +221,7 @@ button.card-more:hover, button.card-more:active {
   from{transform:scale(.1);}
 }
 .close {
-color: var(--text);
+color: var(--accent);
 font-size: 2.5em;
 font-weight: bold;
 position: absolute;
@@ -250,6 +250,7 @@ text-shadow: 2px 2px 5px var(--accent),
 .eg-text h3 {
   margin-top: 0;
   padding-top: 0;
+  color: var(--accent);
 }
 .modal-body img {
   margin-bottom: 1.5em;
@@ -258,4 +259,10 @@ text-shadow: 2px 2px 5px var(--accent),
 }
 @media screen and (min-width: 1280px) {
   .model-body {grid-template-columns: 7fr 5fr;}
+  }
+  footer {
+    background-color: var(--prime);
+    padding: .05rem;
+    color: var(--rev-text);
+    text-align: center;
   }
