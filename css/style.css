@@ -196,6 +196,8 @@ a.nav-item:hover {
 .two .thumb {background-image: url('img/flag.jpg');}
 .three .thumb {background-image: url('img/flag2.jpg');}
 .four .thumb {background-image: url('img/orange.jpg');}
+.five .thumb {background-image: url('img/jack.jpg');}
+.six .thumb {background-image: url('img/dark.jpg');}
 
 .card-content {
   padding: 0 .5em .7em .5em;
@@ -238,7 +240,7 @@ button.card-more:hover, button.card-more:active {
   border-radius: 4px;
   animation: fadein .3s ease-in-out;
 }
-@@keyframes fadein {
+@keyframes fadein {
   from{transform:scale(.1);}
 }
 .close {
