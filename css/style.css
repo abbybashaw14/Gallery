@@ -198,6 +198,8 @@ a.nav-item:hover {
 .four .thumb {background-image: url('img/orange.jpg');}
 .five .thumb {background-image: url('img/jack.jpg');}
 .six .thumb {background-image: url('img/dark.jpg');}
+.seven .thumb {background-image: url('img/moms.jpg');}
+.eight .thumb {background-image: url('img/colorful.jpg');}
 
 .card-content {
   padding: 0 .5em .7em .5em;
@@ -269,6 +271,7 @@ text-shadow: 2px 2px 5px var(--accent),
 }
 .eg-text {
   align-self: center;
+  color: white;
 }
 .eg-text h3 {
   margin-top: 0;
