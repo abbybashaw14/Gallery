@@ -141,6 +141,24 @@ a.nav-item:hover {
 .active, .indicator:hover {
   opacity: 1;
 }
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@media only screen and (max-width: 767px) {
+  .slideshow {display: none;}
+}
+
 .main-grid {
   margin-top: 3.5rem;
   display: grid;
@@ -177,6 +195,7 @@ a.nav-item:hover {
 .one .thumb {background-image: url('img/boathouse.jpg'); }
 .two .thumb {background-image: url('img/flag.jpg');}
 .three .thumb {background-image: url('img/flag2.jpg');}
+.four .thumb {background-image: url('img/orange.jpg');}
 
 .card-content {
   padding: 0 .5em .7em .5em;
