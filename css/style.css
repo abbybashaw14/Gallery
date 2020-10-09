@@ -13,6 +13,9 @@ body{
   width: 98%;
   margin: 0 auto;
 }
+button {
+  border-radius: .25em;
+}
 i.fas {
   padding: 0 .33em;
 }
